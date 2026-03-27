@@ -131,7 +131,7 @@ const Projects = () => {
   tech: ['React.js', 'TypeScript', 'Socket.io', 'Node.js', 'Express.js', 'Redis', 'MongoDB'],
   github: 'https://github.com/kapil-maan/AnyChat',
   gradient: 'from-pink-500 to-rose-500',
-  images: ['/anychat1.png','/anychat2.png','/anychat3.png']
+  images: ['/any1.png','/any2.png','/any3.png']
 },
   ];
 
