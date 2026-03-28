@@ -15,6 +15,9 @@ import { getLeetCodeStats } from "./services/leetcode";
 import { getGFGStats } from "./services/gfg";
 import { SiGeeksforgeeks } from 'react-icons/si';
 
+import VersionSwitch from './components/VersionSwitch';
+
+
 function App() {
   const [codingStats, setCodingStats] = useState({
     leetcode: { easy: 0, medium: 0, hard: 0, total: 0 },
@@ -113,6 +116,8 @@ function App() {
       <div className="reveal transition-delay-600"><Certifications /></div>
       <div className="reveal transition-delay-700"><Contact /></div>
       <Footer personalInfo={personalInfo} />
+      <VersionSwitch/>
+    
     </div>
   );
 }

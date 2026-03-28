@@ -14,7 +14,7 @@ const Footer = ({ personalInfo }) => {
           <div className="space-y-4">
             <a href="#home" className="inline-block text-2xl font-extrabold tracking-tight text-white mb-2">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-indigo-500">&lt;</span>
-              Ankit
+              Kapil
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-cyan-400">/&gt;</span>
             </a>
             <p className="text-slate-400 leading-relaxed max-w-sm">
@@ -76,7 +76,7 @@ const Footer = ({ personalInfo }) => {
         </div>
         
         <div className="border-t border-slate-800 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center text-slate-500 text-sm">
-          <p>&copy; {new Date().getFullYear()} Ankit Kumar. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Kapil Kumar. All rights reserved.</p>
           <p className="mt-2 md:mt-0 flex items-center">
             Built with <span className="text-red-500 mx-1">❤️</span> using React + Vite + Tailwind
           </p>
